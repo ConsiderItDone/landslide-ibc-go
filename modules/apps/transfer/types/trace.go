@@ -7,10 +7,10 @@ import (
 	"sort"
 	"strings"
 
+	tmbytes "github.com/consideritdone/landslide-tendermint/libs/bytes"
+	tmtypes "github.com/consideritdone/landslide-tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmtypes "github.com/tendermint/tendermint/types"
 
 	host "github.com/cosmos/ibc-go/v3/modules/core/24-host"
 )

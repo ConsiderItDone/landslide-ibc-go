@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/consideritdone/landslide-tendermint/libs/log"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/server"
@@ -14,7 +15,6 @@ import (
 	genutiltest "github.com/cosmos/cosmos-sdk/x/genutil/client/testutil"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/log"
 
 	"github.com/cosmos/ibc-go/v3/testing/simapp"
 	simcmd "github.com/cosmos/ibc-go/v3/testing/simapp/simd/cmd"

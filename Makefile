@@ -148,7 +148,7 @@ mocks: $(MOCKS_DIR)
 	mockgen -source=types/router.go -package mocks -destination tests/mocks/types_router.go
 	mockgen -source=types/handler.go -package mocks -destination tests/mocks/types_handler.go
 	mockgen -package mocks -destination tests/mocks/grpc_server.go github.com/gogo/protobuf/grpc Server
-	mockgen -package mocks -destination tests/mocks/tendermint_tendermint_libs_log_DB.go github.com/tendermint/tendermint/libs/log Logger
+	mockgen -package mocks -destination tests/mocks/tendermint_tendermint_libs_log_DB.go github.com/consideritdone/landslide-tendermint/libs/log Logger
 .PHONY: mocks
 
 $(MOCKS_DIR):
@@ -400,7 +400,7 @@ proto-lint:
 proto-check-breaking:
 	@$(DOCKER_BUF) breaking --against $(HTTPS_GIT)#branch=main
 
-TM_URL              = https://raw.githubusercontent.com/tendermint/tendermint/v0.34.0-rc6/proto/tendermint
+TM_URL              = https://raw.githubusercontent.com/consideritdone/landslide-tendermint/v0.34.0-rc6/proto/tendermint
 GOGO_PROTO_URL      = https://raw.githubusercontent.com/regen-network/protobuf/cosmos
 CONFIO_URL          = https://raw.githubusercontent.com/confio/ics23/v0.6.3
 SDK_PROTO_URL 		= https://raw.githubusercontent.com/cosmos/cosmos-sdk/v0.41.0/proto/cosmos
@@ -435,7 +435,7 @@ proto-update-deps:
 ## Importing of tendermint protobuf definitions currently requires the
 ## use of `sed` in order to build properly with cosmos-sdk's proto file layout
 ## (which is the standard Buf.build FILE_LAYOUT)
-## Issue link: https://github.com/tendermint/tendermint/issues/5021
+## Issue link: https://github.com/consideritdone/landslide-tendermint/issues/5021
 	@mkdir -p $(TM_TYPES)
 	@curl -sSL $(TM_URL)/types/types.proto > $(TM_TYPES)/types.proto
 	@curl -sSL $(TM_URL)/types/validator.proto > $(TM_TYPES)/validator.proto

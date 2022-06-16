@@ -6,9 +6,9 @@ import (
 	"net/url"
 
 	ics23 "github.com/confio/ics23/go"
+	tmcrypto "github.com/consideritdone/landslide-tendermint/proto/tendermint/crypto"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/gogo/protobuf/proto"
-	tmcrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/exported"
 )

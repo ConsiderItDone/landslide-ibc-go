@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 
+	tmrand "github.com/consideritdone/landslide-tendermint/libs/rand"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"
@@ -24,7 +25,6 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/suite"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
 	dbm "github.com/tendermint/tm-db"
 
 	ibcclientcli "github.com/cosmos/ibc-go/v3/modules/core/02-client/client/cli"

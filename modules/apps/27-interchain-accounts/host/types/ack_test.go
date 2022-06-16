@@ -3,11 +3,11 @@ package types_test
 import (
 	"testing"
 
+	abcitypes "github.com/consideritdone/landslide-tendermint/abci/types"
+	tmprotostate "github.com/consideritdone/landslide-tendermint/proto/tendermint/state"
+	tmstate "github.com/consideritdone/landslide-tendermint/state"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/suite"
-	abcitypes "github.com/tendermint/tendermint/abci/types"
-	tmprotostate "github.com/tendermint/tendermint/proto/tendermint/state"
-	tmstate "github.com/tendermint/tendermint/state"
 
 	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/host/types"
 	ibctesting "github.com/cosmos/ibc-go/v3/testing"

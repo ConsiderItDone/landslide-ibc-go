@@ -3,11 +3,11 @@ package v100_test
 import (
 	"testing"
 
+	tmtypes "github.com/consideritdone/landslide-tendermint/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 	"github.com/stretchr/testify/suite"
-	tmtypes "github.com/tendermint/tendermint/types"
 
 	ibcclient "github.com/cosmos/ibc-go/v3/modules/core/02-client"
 	clientv100 "github.com/cosmos/ibc-go/v3/modules/core/02-client/legacy/v100"

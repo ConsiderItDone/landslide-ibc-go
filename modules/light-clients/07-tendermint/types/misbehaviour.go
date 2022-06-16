@@ -3,9 +3,9 @@ package types
 import (
 	"time"
 
+	tmproto "github.com/consideritdone/landslide-tendermint/proto/tendermint/types"
+	tmtypes "github.com/consideritdone/landslide-tendermint/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmtypes "github.com/tendermint/tendermint/types"
 
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
 	host "github.com/cosmos/ibc-go/v3/modules/core/24-host"
