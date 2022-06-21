@@ -128,4 +128,4 @@ require (
 	nhooyr.io/websocket v1.8.6 // indirect
 )
 
-replace github.com/cosmos/cosmos-sdk => github.com/consideritdone/landslide-cosmos-sdk v0.45.2-0.20220610085413-7d19d4a0e397
+replace github.com/cosmos/cosmos-sdk => github.com/consideritdone/landslide-cosmos-sdk v0.45.2-0.20220621130910-f0b2498de247

@@ -261,8 +261,8 @@ github.com/confio/ics23/go v0.7.0 h1:00d2kukk7sPoHWL4zZBZwzxnpA2pec1NPdwbSokJ5w8
 github.com/confio/ics23/go v0.7.0/go.mod h1:E45NqnlpxGnpfTWL/xauN7MRwEE28T4Dd4uraToOaKg=
 github.com/consensys/bavard v0.1.8-0.20210406032232-f3452dc9b572/go.mod h1:Bpd0/3mZuaj6Sj+PqrmIquiOKy397AKGThQPaGzNXAQ=
 github.com/consensys/gnark-crypto v0.4.1-0.20210426202927-39ac3d4b3f1f/go.mod h1:815PAHg3wvysy0SyIqanF8gZ0Y1wjk/hrDHD/iT88+Q=
-github.com/consideritdone/landslide-cosmos-sdk v0.45.2-0.20220610085413-7d19d4a0e397 h1:AteNlnRuJZqPgtNf7yFRCDixv2y/CJFkLEfNY+sn+WM=
-github.com/consideritdone/landslide-cosmos-sdk v0.45.2-0.20220610085413-7d19d4a0e397/go.mod h1:biRdZ+UJ3H7+QcfAf7pta6Ngf1GBSVtbMydNKBn+YdU=
+github.com/consideritdone/landslide-cosmos-sdk v0.45.2-0.20220621130910-f0b2498de247 h1:ZSTW+qxwotEATpYMv4q2EuK53fyovU34G0p6Z6tJJYo=
+github.com/consideritdone/landslide-cosmos-sdk v0.45.2-0.20220621130910-f0b2498de247/go.mod h1:biRdZ+UJ3H7+QcfAf7pta6Ngf1GBSVtbMydNKBn+YdU=
 github.com/consideritdone/landslide-tendermint v0.0.0-20220602162606-cbb085e40e4b h1:fyQT5NpuW1+wnB5c0KliLt41vk/DMgC0q9Qf3bYo6lI=
 github.com/consideritdone/landslide-tendermint v0.0.0-20220602162606-cbb085e40e4b/go.mod h1:KnG8wHu8K8Xffi5jb/fDiaj2vrOi686xm4hGOt7giQ0=
 github.com/containerd/console v1.0.2/go.mod h1:ytZPjGgY2oeTkAONYafi2kSj0aYggsf8acV1PGKCbzQ=
